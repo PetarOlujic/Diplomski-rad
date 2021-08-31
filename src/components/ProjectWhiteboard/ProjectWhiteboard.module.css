@@ -1,0 +1,9 @@
+.Menu {
+	width: 90%;
+	height: 100%;
+	margin: 17px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}

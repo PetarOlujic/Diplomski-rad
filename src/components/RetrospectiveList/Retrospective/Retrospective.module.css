@@ -1,0 +1,74 @@
+.Container {
+	display: flex;
+	justify-content: space-around;
+	height: 40px;
+	padding: 15px;
+	margin: 15px;
+	background-color: rgb(187, 187, 187);
+	border: 1px solid rgba(34, 36, 38, 0.5);
+	box-shadow: 2px 2px 10px rgb(161, 161, 161);
+	width: 90%;
+}
+
+.Circle {
+	height: 40px;
+	width: 40px;
+	background-color: #ccc;
+	border-radius: 50%;
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid rgba(34, 36, 38, 0.5);
+	box-shadow: 2px 2px 10px rgb(161, 161, 161);
+}
+
+.CircleGreen {
+	height: 40px;
+	width: 40px;
+	background-color: #ccc;
+	border-radius: 50%;
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid rgba(34, 36, 38, 0.5);
+	box-shadow: 2px 2px 10px rgb(161, 161, 161);
+	background-color: #21ba45;
+}
+
+/* .CircleRed {
+	background-color: salmon;
+} */
+
+.Span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* max-width: 300px; */
+	width: 300px;
+}
+
+.LikeContainer {
+	display: flex;
+	justify-content: space-around;
+	width: 72.5%;
+	margin: 10px 10px 50px 10px;
+	/* padding-left: 15%; */
+	/* padding: 0 25% 0 25%; */
+}
+
+.Button {
+	/* padding: 10px;
+	margin-left: 10%; */
+	margin-right: 30px;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid rgba(34, 36, 38, 0.5);
+	box-shadow: 2px 2px 10px rgb(161 161 161);
+	cursor: pointer;
+}
+
+.DeleteButton {
+	padding: 0;
+	margin-top: 10px;
+	margin-left: auto;
+	height: 30px;
+	cursor: pointer;
+	/* align-self: flex-start; */
+}

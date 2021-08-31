@@ -1,0 +1,29 @@
+.Layout {
+	padding: 0;
+	margin: 0;
+	font-size: x-large;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 70px;
+	border-bottom: 1px solid rgba(34, 36, 38, 0.5);
+}
+
+.Li {
+	list-style-type: none;
+}
+
+.Link {
+	text-decoration: none;
+	color: black;
+}
+
+.Link:active,
+.Link:hover {
+	color: #21ba45;
+}
+
+.ActiveLink {
+	border-bottom: 2px solid #21ba45;
+}

@@ -1,0 +1,75 @@
+.Wrapper {
+	font-size: x-large;
+	margin: 30px;
+	padding: 5px;
+}
+
+.TitleDiv {
+	display: flex;
+	flex-direction: column;
+}
+
+.DescriptionDiv {
+	display: flex;
+	flex-direction: column;
+}
+
+.InputTitle {
+	margin: 20px 0 20px 0;
+	padding: 5px;
+	color: -internal-light-dark(black, white);
+}
+
+.InputDescription {
+	padding: 5px;
+	font: 400 13.3333px Arial;
+	margin: 20px 0 20px 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	color: -internal-light-dark(black, white);
+}
+
+.InputForm {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+}
+
+.InputForm > button {
+	margin-top: 15px;
+	margin-right: 50px;
+	width: 30px;
+	align-self: flex-start;
+}
+
+.InputFormDiv {
+	display: flex;
+	flex-direction: row;
+}
+
+.InputFormDiv > button {
+	margin-left: 10px;
+}
+
+.ButtonContainer {
+	display: flex;
+	flex-flow: row;
+	margin-top: 30px;
+}
+
+.SubmitButton {
+	margin-right: 30px;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid rgba(34, 36, 38, 0.5);
+	box-shadow: 2px 2px 10px rgb(161, 161, 161);
+	cursor: pointer;
+}
+
+.SubmitButton:hover {
+	background-color: rgb(161, 161, 161);
+}
+
+.SubmitButton:active {
+	background-color: rgb(226, 223, 223);
+}

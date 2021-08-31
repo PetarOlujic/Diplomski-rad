@@ -1,0 +1,25 @@
+.Container {
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	box-shadow: 2px 4px 5px #ccc;
+	margin: 5% 2%;
+	padding: 1%;
+	width: 28%;
+	min-width: 200px;
+	min-height: 250px;
+}
+
+.Link {
+	text-decoration: none;
+	color: black;
+}
+
+.Title {
+	display: flex;
+	justify-content: space-around;
+}
+
+.Paragraph {
+	display: flex;
+	justify-content: space-around;
+}

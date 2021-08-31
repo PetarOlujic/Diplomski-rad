@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with Create React App. To run this application properly, you first need to run 'npm install'.
+Then navigate to src/server in terminal and run node Server.js. Finally, run 'npm start' in another terminal from the root directory and it will open the app at 'localhost: 3000'.
 
 ## Available Scripts
 
